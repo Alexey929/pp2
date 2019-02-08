@@ -31,7 +31,7 @@ namespace Task1
             }
             int cnt = 0;
             int n = int.Parse(Console.ReadLine());
-            int[] a = new int[n];
+            int[] a = new int[n];//new int array
             for ( int i=0; i < n; i++)
             {
                a[i] = int.Parse(Console.ReadLine());
